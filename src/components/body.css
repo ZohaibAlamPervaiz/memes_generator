@@ -1,0 +1,54 @@
+.memsBody{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: fit-content;
+    margin: 15px 0px;
+}
+img{
+    width: 50vw;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(223, 34, 182);
+    color: rgb(255, 255, 255);
+    position: relative;
+
+}
+input{
+    margin-left: 10px;
+    padding: 5px;
+    width: 250px;
+}
+.meme{
+    position: relative;
+}
+.meme--text{   
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    position: absolute;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+
+}
+.bottom{
+    bottom: 0;
+}
+.top{
+    top: 0%;
+}

@@ -1,0 +1,10 @@
+.nav{
+    color: white;
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(223, 34, 182);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
